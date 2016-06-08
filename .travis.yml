@@ -1,3 +1,4 @@
+
 language: node_js
 sudo: false
 node_js:
@@ -11,4 +12,4 @@ deploy:
   api_key: $NPM_API_KEY
   on:
     tags: true
-    repo: olegman/style-node-loader
+    repo: olegman/webpack-assets-plugin
