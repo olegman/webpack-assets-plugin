@@ -1,0 +1,17 @@
+{
+  "name": "webpack-assets-plugin",
+  "version": "0.0.1",
+  "author": {
+    "name": "Oleg Martynov",
+    "email": "olegman.ru@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/olegman/webpack-assets-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olegman/webpack-assets-plugin.git"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
