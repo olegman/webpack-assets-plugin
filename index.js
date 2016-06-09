@@ -20,6 +20,7 @@ module.exports = class WebpackAssetsPlugin {
                     chunkAssets = [chunkAssets]
                 }
 
+                chunkAssets = chunkAssets.filter(name => name.indexOf('hot-update') == -1);
                 chunkAssets.forEach(name => {
                     switch (path.extname(name)) {
                         case '.js':
